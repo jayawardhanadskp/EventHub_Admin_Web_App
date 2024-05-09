@@ -50,7 +50,7 @@ class _DashbordScreenState extends State<DashbordScreen> {
       ),
       body:  Column(
         children: [
-          Image.asset('assets/adminbanner.png'),
+          Image.asset('assets/banner.jpeg'),
            Container(
              padding: EdgeInsets.all(20),
               child: Column(
