@@ -4,14 +4,8 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
 
-
 import 'login/login.dart';
-import 'screens/main_page.dart';
-import 'screens/views/banners.dart';
-import 'screens/views/bookings.dart';
-import 'screens/views/dashbord.dart';
-import 'screens/views/service_providers.dart';
-import 'screens/views/service_seekers.dart';
+
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -47,7 +41,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: true,
       ),
-      home: MainPage(),
+      home: Login(),
       builder: EasyLoading.init(),
 
     );
