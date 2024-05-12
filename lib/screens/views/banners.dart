@@ -68,6 +68,7 @@ class _BannerUploadScreenState extends State<BannerUploadScreen> {
     retrieveBanners();
   }
 
+
   pickImage() async {
     FilePickerResult? result = await FilePicker.platform
         .pickFiles(allowMultiple: false, type: FileType.image);
