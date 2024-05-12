@@ -114,12 +114,12 @@ class _ServiceSeekersScreenState extends State<ServiceSeekersScreen> {
         String message = '';
 
         return AlertDialog(
-          title: Text('Send Message'),
+          title: Text('Send Service Message'),
           content: TextField(
             onChanged: (value) {
               message = value;
             },
-            decoration: InputDecoration(hintText: 'Type your message'),
+            decoration: InputDecoration(hintText: 'Type your service message'),
           ),
           actions: [
             TextButton(
