@@ -106,12 +106,12 @@ void _showMessageDialog(BuildContext context, String customerId) {
       String message = '';
 
       return AlertDialog(
-        title: Text('Send Message'),
+        title: const Text('Send Message'),
         content: TextField(
           onChanged: (value) {
             message = value;
           },
-          decoration: InputDecoration(hintText: 'Type your message'),
+          decoration: const InputDecoration(hintText: 'Type your message'),
         ),
         actions: [
           TextButton(
@@ -133,7 +133,7 @@ void _showMessageDialog(BuildContext context, String customerId) {
 
               Navigator.of(context).pop(); // Close dialog
             },
-            child: Text('Send'),
+            child: const Text('Send'),
           ),
         ],
       );
