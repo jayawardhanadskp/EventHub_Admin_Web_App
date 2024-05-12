@@ -174,10 +174,10 @@ class SideBar extends StatelessWidget {
         padding: EdgeInsets.zero,
         children: [
           const DrawerHeader(
-            child: Text('Admin Menu'),
             decoration: BoxDecoration(
-              color: Color(0XFF1565C0),
+              
             ),
+            child: Text('Admin Menu'),
           ),
           for (var item in items)
             Container(
